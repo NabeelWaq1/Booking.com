@@ -124,7 +124,13 @@ nav{
     font-size: 15px;
     font-weight: 800;
 }
-
+.hero-con button{
+    cursor: pointer !important;
+    transition: all ease-in-out .4s;
+}
+.hero-con button:hover{
+    background-color: rgba(9, 9, 185, 0.466);
+}
 /* offers */
 .offers{
     width: 100%;
@@ -183,6 +189,11 @@ nav{
     background-color: rgb(3, 54, 196);
     font-size: 13px;
     font-weight: 500;
+    transition: all ease-in-out .4s;
+    cursor: pointer;
+}
+.offers-card-1 button:hover{
+    background-color: rgba(3, 54, 196, 0.904);
 }
 .offers-card img{
 width: 30%;
